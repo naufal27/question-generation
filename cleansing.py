@@ -1,26 +1,12 @@
-import json
 import os
-import glob
+import json
 import re
 import string
-# from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory, StopWordRemover, ArrayDictionary
-# from Sastrawi.Stemmer.StemmerFactory import StemmerFactory
-import nltk
-from nltk.tokenize import word_tokenize
-from nltk.corpus import stopwords
-from pyspark.sql import SparkSession
-from symspellpy import SymSpell, Verbosity
-import time
+import pandas as pd
 import numpy as np
 
-import pandas as pd
-from wordcloud import WordCloud, STOPWORDS
-import matplotlib.pyplot as plt
-
-# nltk.download()
-
 # Merge All Comments File
-path_json = 'uinsgd.official_comments2/'
+path_json = '../uinsgd.official_comments2/'
 json_files = [comment_json for comment_json in os.listdir(
     path_json) if comment_json.endswith('.json')]
 data = []
@@ -78,15 +64,15 @@ def line_att(text):
 
 
 def mention(text):
-    return re.sub(r"@\w+", "", text)   # remove mention
+    return re.sub(r"@\w+", " ", text)   # remove mention
 
 
 def hashtag(text):
-    return re.sub(r"#\w+", "", text)   # remove hashtag
+    return re.sub(r"#\w+", " ", text)   # remove hashtag
 
 
 def arabic(text):
-    return re.sub(r"[ء-ي]\w+", "", text)  # remove arabic letters
+    return re.sub(r"[ء-ي]\w+", " ", text)  # remove arabic letters
 
 
 def double_word(text):
@@ -95,7 +81,7 @@ def double_word(text):
 
 
 def just_number(text):
-    return re.sub(r"\b\d+\b", "", text)  # remove just numbers
+    return re.sub(r"\b\d+\b", " ", text)  # remove just numbers
 
 
 def punctuation(text):
@@ -104,7 +90,7 @@ def punctuation(text):
 
 
 def single_char(text):
-    return re.sub(r"\b[a-zA-Z]\b", "", text)  # remove single char
+    return re.sub(r"\b[a-zA-Z]\b", " ", text)  # remove single char
 
 
 def remoji(text):
@@ -132,11 +118,6 @@ atext_path = pd.DataFrame(
 df = pd.concat([text_path, atext_path], ignore_index=True)
 df.dropna(inplace=True)
 
-# Filter DataFrame
-# question_word = ['\?', 'apa', 'siapa', 'mengapa', 'bagaimana', 'kapan', 'berapa', 'dimana', 'kah']
-# df = df[df['text'].str.contains('|'.join(question_word))]
-
-
 df['text'] = df['text'].apply(decode)
 df['text'] = df['text'].apply(line_att)
 df['text'] = df['text'].apply(mention)
@@ -148,11 +129,9 @@ df['text'] = df['text'].apply(punctuation)
 df['text'] = df['text'].apply(single_char)
 df['text'] = df['text'].apply(remoji)
 df['text'] = df['text'].apply(space)
+
 df.replace('', np.nan, inplace=True)  # 418
 df.dropna(inplace=True)
 df.reset_index(drop=True, inplace=True)
-y = df.to_json(r'comments_processed_test.json', orient='records', indent=4)
+y = df.to_json(r'cleansing.json', orient='records', indent=4)
 print(df)
-
-# with open('comments_processed.json', 'w', encoding='utf-8') as f:
-#     json.dump(y, f, ensure_ascii=False, indent=4)
