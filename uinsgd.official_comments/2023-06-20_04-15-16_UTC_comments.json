@@ -1,0 +1,28 @@
+[
+    {
+        "id": 17898301844752221,
+        "created_at": 1687257518,
+        "text": "@hamidudin_n sugan teh didinya",
+        "owner": {
+            "id": "8459355775",
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fbdo9-1.fna.fbcdn.net/v/t51.2885-19/326204397_163156393126175_5881619894207049743_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fbdo9-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=BN3BbIKUkaEAX9k5bt5&edm=AMrZAGUBAAAA&ccb=7-5&oh=00_AfDdnAiMD_ufhdWNxizn6z5GXI0qqaArcWHhUje07Mq7Dg&oe=64EC0758&_nc_sid=17eaee",
+            "username": "san.insann"
+        },
+        "likes_count": 0,
+        "answers": [
+            {
+                "id": 17991662267025356,
+                "created_at": 1687257577,
+                "text": "@san.insann wkwkwk lain pres",
+                "owner": {
+                    "id": "2351250994",
+                    "is_verified": false,
+                    "profile_pic_url": "https://instagram.fbdo9-1.fna.fbcdn.net/v/t51.2885-19/295274282_788240355517653_7582294641149976223_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fbdo9-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=_V3x9czyqTgAX8Jvp7W&edm=AMrZAGUBAAAA&ccb=7-5&oh=00_AfDB7Gv6EWDsqJhMBjLEqt3ZpqMbG6X123q9vf9Uhp6QSw&oe=64EB7706&_nc_sid=17eaee",
+                    "username": "hamidudin_n"
+                },
+                "likes_count": 0
+            }
+        ]
+    }
+]

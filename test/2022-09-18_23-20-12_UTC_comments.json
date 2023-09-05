@@ -1,0 +1,41 @@
+[
+    {
+        "id": 18156391402270316,
+        "created_at": 1663679717,
+        "text": "Absolutely beautiful",
+        "owner": {
+            "id": "50174121382",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-sin6-2.cdninstagram.com/v/t51.2885-19/308121355_3422733211315989_6043045863501045457_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-sin6-2.cdninstagram.com&_nc_cat=109&_nc_ohc=6DBFe7UvvR4AX8_Mhoy&edm=AMrZAGUBAAAA&ccb=7-5&oh=00_AfDkDwDNW7M6Hv0EOQ7Mm8XVGdqORxtpNeK1VahTB0bV1A&oe=6487A644&_nc_sid=3e0608",
+            "username": "sk_nojimullah"
+        },
+        "likes_count": 0,
+        "answers": []
+    },
+    {
+        "id": 17923885079541720,
+        "created_at": 1663576764,
+        "text": "Trimaksih Pak Rektor UIN Bdg beserta Civitas Akademik yg tlh menjadikan keterbukaan informasi sbg ruh utama pelayanan publik",
+        "owner": {
+            "id": "3000267779",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-sin6-1.cdninstagram.com/v/t51.2885-19/296157143_7988197184554543_1690224619071750664_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-sin6-1.cdninstagram.com&_nc_cat=107&_nc_ohc=SQ-cL_pnNJUAX-sU0Kx&edm=AMrZAGUBAAAA&ccb=7-5&oh=00_AfB_66EWqglxmUIo2EvyNscWlSnMSb8kdbppBWM_X1EjpQ&oe=6488C3AD&_nc_sid=3e0608",
+            "username": "yudaningsihsaad"
+        },
+        "likes_count": 2,
+        "answers": []
+    },
+    {
+        "id": 17972576314682522,
+        "created_at": 1663543283,
+        "text": "\ud83d\udc4d",
+        "owner": {
+            "id": "2376690844",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-sin6-3.cdninstagram.com/v/t51.2885-19/272463894_3070722919849018_5970584562520823083_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-sin6-3.cdninstagram.com&_nc_cat=110&_nc_ohc=SiLMSzjCcZsAX_40Mvk&edm=AMrZAGUBAAAA&ccb=7-5&oh=00_AfArma-L8XkrJiE28x8ebwjWejz93jttEM-Qb7phs1XBLw&oe=64881310&_nc_sid=3e0608",
+            "username": "irfanha18"
+        },
+        "likes_count": 0,
+        "answers": []
+    }
+]

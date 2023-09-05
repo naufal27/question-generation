@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <style>
+      .custom-container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .centered-h1 {
+        text-align: center;
+      }
+    </style>
+    <title>FAQ</title>
+  </head>
+  <body>
+    <div class="container custom-container">
+      <h1 class="mt-5 centered-h1">FAQ</h1>
+      <div id="accordion" class="accordion mt-3"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        // const accordionElement = $("#accordion");
+        // const cachedResult = localStorage.getItem("cachedResult");
+        // if (cachedResult) {
+        //   accordionElement.html(cachedResult);
+        // }
+        $.get("/get-hasil", function (data) {
+          function getFormattedList(items) {
+            return `<ul class="list-group list-group-numbered">${items
+              .map(
+                (item) =>
+                  `<li class="list-group-item">${JSON.stringify(item)}</li>`
+              )
+              .join("")}</ul>`;
+          }
+          // var response = JSON.stringify(data);
+          const accordionElement = $("#accordion");
+          for (const key in data) {
+            if (Object.hasOwnProperty.call(data, key)) {
+              akey = key.replace(/\s/g, "");
+              const cckey = key.replace(/\b\w/g, (char) => char.toUpperCase());
+              const accordionItem = `
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading${akey}">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${akey}" aria-expanded="true" aria-controls="collapse${akey}">
+                                        ${cckey}
+                                    </button>
+                                </h2>
+                                <div id="collapse${akey}" class="accordion-collapse collapse show" aria-labelledby="heading${akey}">
+                                    <div class="accordion-body">
+                                        ${
+                                          Array.isArray(data[key])
+                                            ? getFormattedList(data[key])
+                                            : JSON.stringify(data[key])
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+              accordionElement.append(accordionItem);
+            }
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

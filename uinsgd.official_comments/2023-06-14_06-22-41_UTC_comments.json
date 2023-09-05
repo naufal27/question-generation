@@ -1,0 +1,54 @@
+[
+    {
+        "id": 17869116395930972,
+        "created_at": 1686886900,
+        "text": "Kereeen kampusku \ud83d\udd25\ud83d\udd25\ud83d\udd25",
+        "owner": {
+            "id": "6053763848",
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fbdo9-1.fna.fbcdn.net/v/t51.2885-19/352969233_830011685227179_3794141755953014014_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fbdo9-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=YDSApBxNltAAX9vixUe&edm=AMrZAGUBAAAA&ccb=7-5&oh=00_AfBtRtAhhZEuNymlIvFLBKlOqv9AroIbZpSp5MY1EqSHGQ&oe=64EC9617&_nc_sid=17eaee",
+            "username": "dimakeupvina"
+        },
+        "likes_count": 0,
+        "answers": []
+    },
+    {
+        "id": 17984300942162420,
+        "created_at": 1686733635,
+        "text": "Mau tanya kalo di UIN bisa double degree gak?",
+        "owner": {
+            "id": "5615557976",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-itm1-1.cdninstagram.com/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?_nc_ht=scontent-itm1-1.cdninstagram.com&_nc_cat=1&_nc_ohc=WoEnqtGhc9MAX-Sghro&edm=ABmJApABAAAA&ccb=7-5&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2-ccb7-5&oh=00_AfBwzt5x3rrkm26Lqsmnc0kibvZ3vHBOIfnyo_aiVn_4bw&oe=64EAB18F&_nc_sid=b41fef",
+            "username": "mfahryakbar_"
+        },
+        "likes_count": 0,
+        "answers": [
+            {
+                "id": 17990628398021743,
+                "created_at": 1686746165,
+                "text": "@mfahryakbar_ Ini ada @ana_fadia",
+                "owner": {
+                    "id": "2238049249",
+                    "is_verified": false,
+                    "profile_pic_url": "https://instagram.fbdo9-1.fna.fbcdn.net/v/t51.2885-19/368135178_175577412218774_82185014654122172_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fbdo9-1.fna.fbcdn.net&_nc_cat=102&_nc_ohc=bMCE0X6VsSQAX-NAn9E&edm=AMrZAGUBAAAA&ccb=7-5&oh=00_AfBTCsQsBaKUNF5Qokgy0CTEqPVbU18BNLp8Olvo4vawSg&oe=64EC82B0&_nc_sid=17eaee",
+                    "username": "rimasarah16"
+                },
+                "likes_count": 1
+            }
+        ]
+    },
+    {
+        "id": 17926410326628575,
+        "created_at": 1686725471,
+        "text": "Jadi siapa jagoan calon rektor dirjen pendis?",
+        "owner": {
+            "id": "992072604",
+            "is_verified": false,
+            "profile_pic_url": "https://instagram.fbdo9-1.fna.fbcdn.net/v/t51.2885-19/287399943_132182329446007_1922926303022555761_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fbdo9-1.fna.fbcdn.net&_nc_cat=107&_nc_ohc=ywnCP_wO7NsAX-fjTqn&edm=AMrZAGUBAAAA&ccb=7-5&oh=00_AfCOZItiIodh4C5ZFuPu4ee8BRzoX3azGciUg3u_2ORfOQ&oe=64EAEDA1&_nc_sid=17eaee",
+            "username": "usamozart"
+        },
+        "likes_count": 1,
+        "answers": []
+    }
+]

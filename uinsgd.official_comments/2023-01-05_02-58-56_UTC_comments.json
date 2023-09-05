@@ -1,0 +1,52 @@
+[
+    {
+        "id": 17864959739797170,
+        "created_at": 1672889049,
+        "text": "Min, kalo yang sudah daftar Wisuda lalu belum di verifikasi gimana? Takutnya nanti kouta penuh, ngaruh gk?",
+        "owner": {
+            "id": "31120284435",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-sin6-1.cdninstagram.com/v/t51.2885-19/144097452_125415809453587_7432424540254868825_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-sin6-1.cdninstagram.com&_nc_cat=107&_nc_ohc=ym_BovBNaNwAX8cOHPD&edm=AMrZAGUBAAAA&ccb=7-5&oh=00_AfB2a1wQZGnZF0qgBdoaUZ7Zvg6PfwCTFVfMrbwf4jtisA&oe=64DD1B55&_nc_sid=17eaee",
+            "username": "dikzz.56"
+        },
+        "likes_count": 1,
+        "answers": [
+            {
+                "id": 18025715143421755,
+                "created_at": 1672903109,
+                "text": "@sahrulibnuamr makasih info ny",
+                "owner": {
+                    "id": "31120284435",
+                    "is_verified": false,
+                    "profile_pic_url": "https://scontent-sin6-1.cdninstagram.com/v/t51.2885-19/144097452_125415809453587_7432424540254868825_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-sin6-1.cdninstagram.com&_nc_cat=107&_nc_ohc=ym_BovBNaNwAX8cOHPD&edm=AMrZAGUBAAAA&ccb=7-5&oh=00_AfB2a1wQZGnZF0qgBdoaUZ7Zvg6PfwCTFVfMrbwf4jtisA&oe=64DD1B55&_nc_sid=17eaee",
+                    "username": "dikzz.56"
+                },
+                "likes_count": 0
+            },
+            {
+                "id": 17998918804599853,
+                "created_at": 1672889111,
+                "text": "@dikzz.56 atau yang sudah daftar itu aman? Gk bakal kehabisan kouta?",
+                "owner": {
+                    "id": "31120284435",
+                    "is_verified": false,
+                    "profile_pic_url": "https://scontent-sin6-1.cdninstagram.com/v/t51.2885-19/144097452_125415809453587_7432424540254868825_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-sin6-1.cdninstagram.com&_nc_cat=107&_nc_ohc=ym_BovBNaNwAX8cOHPD&edm=AMrZAGUBAAAA&ccb=7-5&oh=00_AfB2a1wQZGnZF0qgBdoaUZ7Zvg6PfwCTFVfMrbwf4jtisA&oe=64DD1B55&_nc_sid=17eaee",
+                    "username": "dikzz.56"
+                },
+                "likes_count": 0
+            },
+            {
+                "id": 17964661337287927,
+                "created_at": 1672901785,
+                "text": "@dikzz.56 kalo udah ke submit mah aman kang, ditunggu aja. Yang wisuda sebelumnya juga beberapa hari setelah daftar baru selesai diverifikasi.",
+                "owner": {
+                    "id": "51652297324",
+                    "is_verified": false,
+                    "profile_pic_url": "https://scontent-sin6-4.cdninstagram.com/v/t51.2885-19/333732814_1230425477619985_7340821960455528342_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-sin6-4.cdninstagram.com&_nc_cat=101&_nc_ohc=ZVc1KMqmiDcAX-Og8Pp&edm=AMrZAGUBAAAA&ccb=7-5&oh=00_AfDomxkVgiiQncMk8H9NV1w_UI-xfXgfFbKK_uDNwy__mw&oe=64DD77B1&_nc_sid=17eaee",
+                    "username": "sahrulibnuamr"
+                },
+                "likes_count": 1
+            }
+        ]
+    }
+]

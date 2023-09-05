@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Tanggal</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <style>
+      .custom-container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .centered-h1 {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container custom-container">
+      <h1 class="mt-5 centered-h1">Tanggal</h1>
+      <div class="mb-3">
+        <label for="tanggal1" class="form-label">Tanggal Awal :</label>
+        <input type="date" class="form-control" id="tanggal1" name="tanggal1" />
+      </div>
+      <div class="mb-3">
+        <label for="tanggal2" class="form-label">Tanggal Akhir :</label>
+        <input type="date" class="form-control" id="tanggal2" name="tanggal2" />
+      </div>
+      <div class="col-md-12 text-center">
+        <button class="btn btn-primary" id="kirimButton">Generate</button>
+      </div>
+      <h1 class="mt-5 centered-h1">FAQ</h1>
+      <div id="loading" style="display: none">
+        <i class="fas fa-spinner fa-spin"></i> Loading...
+      </div>
+      <div id="accordion" class="accordion mt-3"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#kirimButton").click(async function () {
+          const tanggal1 = $("#tanggal1").val();
+          const tanggal2 = $("#tanggal2").val();
+          const data = {
+            tanggal1: tanggal1,
+            tanggal2: tanggal2,
+          };
+          $("#loading").show();
+          try {
+            const response = await $.ajax({
+              url: "/kirim-tanggal",
+              type: "POST",
+              contentType: "application/json",
+              data: JSON.stringify(data),
+            });
+            $("#loading").hide();
+            const accordionElement = $("#accordion");
+            accordionElement.empty();
+            for (const key in response) {
+              if (Object.hasOwnProperty.call(response, key)) {
+                akey = key.replace(/\s/g, "");
+                const cckey = key.replace(/\b\w/g, (char) =>
+                  char.toUpperCase()
+                );
+                const accordionItem = `
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="heading${akey}">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse${akey}" aria-expanded="true" aria-controls="collapse${akey}">
+                      ${cckey}
+                    </button>
+                  </h2>
+                  <div id="collapse${akey}" class="accordion-collapse collapse show" aria-labelledby="heading${akey}">
+                    <div class="accordion-body">
+                      ${
+                        Array.isArray(response[key])
+                          ? getFormattedList(response[key])
+                          : JSON.stringify(response[key])
+                      }
+                    </div>
+                  </div>
+                </div>
+              `;
+                accordionElement.append(accordionItem);
+              }
+            }
+          } catch (error) {
+            $("#loading").hide();
+            alert("Terjadi kesalahan saat mengirim tanggal.");
+          }
+        });
+        function getFormattedList(items) {
+          return `<ul class="list-group list-group-numbered">${items
+            .map(
+              (item) =>
+                `<li class="list-group-item">${JSON.stringify(item)}</li>`
+            )
+            .join("")}</ul>`;
+        }
+      });
+    </script>
+  </body>
+</html>

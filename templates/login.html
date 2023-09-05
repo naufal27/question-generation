@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <style>
+      .custom-container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+    </style>
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container custom-container">
+      <h1>Login</h1>
+      <form method="POST" action="">
+        {{ form.hidden_tag() }}
+        <div class="form-group">
+          <label for="{{ form.username.id }}">Username</label>
+          {{ form.username(class="form-control", id=form.username.id) }}
+        </div>
+        <div class="form-group">
+          <label for="{{ form.password.id }}">Password</label>
+          {{ form.password(class="form-control", id=form.password.id) }}
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+      </form>
+    </div>
+  </body>
+</html>

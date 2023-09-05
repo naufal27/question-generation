@@ -1,0 +1,67 @@
+[
+    {
+        "id": 18024240505544387,
+        "created_at": 1685462240,
+        "text": "Kalau untuk membantu alumni yg belum  dapat pekerjaan itu ada ga min wadahnya?",
+        "owner": {
+            "id": "2248770625",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-sin6-2.cdninstagram.com/v/t51.2885-19/268175204_427480128848373_1792008682403902698_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-sin6-2.cdninstagram.com&_nc_cat=109&_nc_ohc=1vzfgVx3v5YAX9nW4bk&edm=AMrZAGUBAAAA&ccb=7-5&oh=00_AfDAWj2YI9cg8u-4ABykMyVbJ861LP_DaPR0bdVwTf_nwQ&oe=64DD20B5&_nc_sid=17eaee",
+            "username": "dp.kusumah"
+        },
+        "likes_count": 1,
+        "answers": []
+    },
+    {
+        "id": 17983857704316933,
+        "created_at": 1685344781,
+        "text": "Mksudnya gmna min",
+        "owner": {
+            "id": "2044694316",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-sin6-3.cdninstagram.com/v/t51.2885-19/81039583_853951748388592_2720491122043387904_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-sin6-3.cdninstagram.com&_nc_cat=104&_nc_ohc=EfGW9hM_cywAX-6WPQW&edm=AMrZAGUBAAAA&ccb=7-5&oh=00_AfAo13orK6bmEW_C_v2fQTr94L6HCu01brMVvADeQO4QgA&oe=64DD30C5&_nc_sid=17eaee",
+            "username": "rissasupartika_argadinata"
+        },
+        "likes_count": 1,
+        "answers": [
+            {
+                "id": 18219933646232357,
+                "created_at": 1685350056,
+                "text": "@rissasupartika_argadinata isi Tracer Study melalui link yg tertera ya Kak atau bisa cek IG story dan klik linknya \ud83d\ude0a\ud83d\ude4f\ud83c\udffb",
+                "owner": {
+                    "id": "9492354100",
+                    "is_verified": true,
+                    "profile_pic_url": "https://scontent-sin6-3.cdninstagram.com/v/t51.2885-19/294111752_178210761382446_2947347018377079479_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-sin6-3.cdninstagram.com&_nc_cat=106&_nc_ohc=g4jPTB1qBEgAX-3EHFw&edm=AMrZAGUBAAAA&ccb=7-5&oh=00_AfCHDRROah8j-17weI4R9PR9xAS8lYvRWdMmURunQIqL4w&oe=64DCC7FC&_nc_sid=17eaee",
+                    "username": "uinsgd.official"
+                },
+                "likes_count": 1
+            }
+        ]
+    },
+    {
+        "id": 17954505728609383,
+        "created_at": 1685343961,
+        "text": "Tracer study tuh ngapain aja min?",
+        "owner": {
+            "id": "4547285548",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-sin6-2.cdninstagram.com/v/t51.2885-19/298217608_374768714828945_5300795735430566939_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-sin6-2.cdninstagram.com&_nc_cat=105&_nc_ohc=67sBMA0Q1jMAX_i4Q4q&edm=AMrZAGUBAAAA&ccb=7-5&oh=00_AfAJPkv2H74DxXydgE4feXjBhhWCOEJi-BJps1u_j7IhdA&oe=64DD15DD&_nc_sid=17eaee",
+            "username": "syaillust"
+        },
+        "likes_count": 0,
+        "answers": [
+            {
+                "id": 18049753039439799,
+                "created_at": 1685350216,
+                "text": "@syaillust Tracer Study merupakan pelacakan/penelusuran jejak alumni untuk mengetahui kegiatan yang dilakukan alumni pasca lulus kuliah. Sederhananya, Tracer Study ini semacam survey bagi para lulusan. Caranya, isi link yang tertera di caption, atau cek IG story dan klik linknya ya \ud83d\ude0a\ud83d\ude4f\ud83c\udffb",
+                "owner": {
+                    "id": "9492354100",
+                    "is_verified": true,
+                    "profile_pic_url": "https://scontent-sin6-3.cdninstagram.com/v/t51.2885-19/294111752_178210761382446_2947347018377079479_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-sin6-3.cdninstagram.com&_nc_cat=106&_nc_ohc=g4jPTB1qBEgAX-3EHFw&edm=AMrZAGUBAAAA&ccb=7-5&oh=00_AfCHDRROah8j-17weI4R9PR9xAS8lYvRWdMmURunQIqL4w&oe=64DCC7FC&_nc_sid=17eaee",
+                    "username": "uinsgd.official"
+                },
+                "likes_count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,67 @@
+[
+    {
+        "id": 17969612647824807,
+        "created_at": 1667987158,
+        "text": "Heii anda @rafiemyh \ud83d\ude02",
+        "owner": {
+            "id": "6178486590",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-sin6-3.cdninstagram.com/v/t51.2885-19/290723538_428420169162798_5343789994404658081_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-sin6-3.cdninstagram.com&_nc_cat=106&_nc_ohc=mWk23dDz2ysAX8J_2sJ&edm=AMrZAGUBAAAA&ccb=7-5&oh=00_AfARx42gffHyvbz3-KPJpo8pq06vGSwdAqUan1WcNo7qFQ&oe=6488F9C6&_nc_sid=3e0608",
+            "username": "rdngilang9"
+        },
+        "likes_count": 1,
+        "answers": [
+            {
+                "id": 18237654742180988,
+                "created_at": 1667987440,
+                "text": "@rdngilang9 eh aya tum aden \ud83d\ude05",
+                "owner": {
+                    "id": "5717394857",
+                    "is_verified": false,
+                    "profile_pic_url": "https://scontent-cgk1-1.cdninstagram.com/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?_nc_ht=scontent-cgk1-1.cdninstagram.com&_nc_cat=1&_nc_ohc=B9ImJ2aE9RIAX8l_HkH&edm=APQMUHMBAAAA&ccb=7-5&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2-ccb7-5&oh=00_AfDpK81kbi9SatN1XxVDMFaTBnX6sBjT9kTGLx3X97uUTA&oe=6487D10F&_nc_sid=e573e2",
+                    "username": "rafiemyh"
+                },
+                "likes_count": 0
+            }
+        ]
+    },
+    {
+        "id": 18041909074384313,
+        "created_at": 1667975655,
+        "text": "mahasiswanya asa kenal pak",
+        "owner": {
+            "id": "262867460",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-sin6-2.cdninstagram.com/v/t51.2885-19/351095062_1943532302660348_4874566331617698025_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-sin6-2.cdninstagram.com&_nc_cat=108&_nc_ohc=UkR6FCKBmXsAX-gPXJz&edm=AMrZAGUBAAAA&ccb=7-5&oh=00_AfDo2-RWxO7lTEkiC-g_yeq2GmuEeV5HWtXf2w18BxIvzQ&oe=64883D97&_nc_sid=3e0608",
+            "username": "alyasznr"
+        },
+        "likes_count": 1,
+        "answers": []
+    },
+    {
+        "id": 17947937948164764,
+        "created_at": 1667975636,
+        "text": "Siap ganteng @rafiemyh",
+        "owner": {
+            "id": "2351250994",
+            "is_verified": false,
+            "profile_pic_url": "https://scontent-sin6-2.cdninstagram.com/v/t51.2885-19/295274282_788240355517653_7582294641149976223_n.jpg?stp=dst-jpg_s150x150&_nc_ht=scontent-sin6-2.cdninstagram.com&_nc_cat=109&_nc_ohc=rrhLG1dwbUAAX_4hA8O&edm=AMrZAGUBAAAA&ccb=7-5&oh=00_AfBDULBds-tw49aR_AYO9l1gBQ1Pmo5jLWcJjjVJBZ1nPA&oe=64889686&_nc_sid=3e0608",
+            "username": "hamidudin_n"
+        },
+        "likes_count": 1,
+        "answers": [
+            {
+                "id": 17860759793827540,
+                "created_at": 1667975672,
+                "text": "@hamidudin_n eh naon ieu pak hami rarewas kieu, kumaha kumaha?",
+                "owner": {
+                    "id": "5717394857",
+                    "is_verified": false,
+                    "profile_pic_url": "https://scontent-cgk1-1.cdninstagram.com/v/t51.2885-19/44884218_345707102882519_2446069589734326272_n.jpg?_nc_ht=scontent-cgk1-1.cdninstagram.com&_nc_cat=1&_nc_ohc=B9ImJ2aE9RIAX8l_HkH&edm=APQMUHMBAAAA&ccb=7-5&ig_cache_key=YW5vbnltb3VzX3Byb2ZpbGVfcGlj.2-ccb7-5&oh=00_AfDpK81kbi9SatN1XxVDMFaTBnX6sBjT9kTGLx3X97uUTA&oe=6487D10F&_nc_sid=e573e2",
+                    "username": "rafiemyh"
+                },
+                "likes_count": 0
+            }
+        ]
+    }
+]
